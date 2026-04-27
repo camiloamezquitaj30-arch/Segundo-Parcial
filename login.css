@@ -1,0 +1,103 @@
+/* Hecho por Johan Camilo Amezquita. */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     font-family: Arial, sans-serif;
+}
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #1f221ff0;
+    padding: 15px 8%;
+}
+
+.nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contenedor-login {
+    display: grid;
+    place-items: center;
+    min-height: 85vh;
+}
+.tarjeta-formulario {
+    background: #1e1e1e;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #333;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+form {
+    display: grid;
+    gap: 1.8rem;
+}
+.campo {
+    display: grid;
+    gap: 0.6rem;
+}
+.campo label {
+    color: #888;
+    font-size: 0.85rem;
+}
+input {
+    padding: 12px;
+    background-color: #252525;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: white;
+    transition: 0.3s;
+}
+input:focus {
+     outline: none;
+    border-color: rgb(125, 125, 254);
+}
+.botones {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1.5rem;
+}
+.BotonIngresar {
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s;
+
+}
+.BotonIngresar:hover {
+    background-color: #787676;
+}

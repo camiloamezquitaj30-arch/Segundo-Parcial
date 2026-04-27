@@ -1,0 +1,70 @@
+/* Hecho por Luis Miguel Libreros. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #0b0d17;
+    padding: 15px 8%
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+h2 {
+    text-align: center;
+    color: #0b0d17;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+table {
+    width: 100%;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.encabezado {
+    background-color: #0b0d17;
+    color: white;
+}
+th {
+    padding: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+td {
+    padding: 15px 18px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #555;
+}
+tr:hover {
+    background-color: #b6f9c9;
+}
